@@ -1,0 +1,3 @@
+ID,Nombre,DtAniversario,curso_ID,createdAt,Telefone,email,createdBy,modifiedAt,modifiedBy,status,critico,comentario
+01,ALUM UNO,2024-01-01,20567922-7d57-4e76-b16c-e53fd97dcb12,2024-01-01,45644,earenas@gmail.com,earenas,,,A,,
+02,ALUM DOS,2024-01-02,20227911-7d57-4aa6-b16c-e53fddddcb12,2024-01-02,33333,earenas@gmail.com,earenas,,,I,,
