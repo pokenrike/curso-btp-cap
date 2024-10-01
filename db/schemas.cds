@@ -1,7 +1,7 @@
 namespace capacitacion;
 
 using { managed , cuid} from '@sap/cds/common';
-using { Attachments } from '@cap-js/attachments';
+// using { Attachments } from '@cap-js/attachments';
 
 
 entity Alumnos : cuid, managed {
@@ -14,7 +14,7 @@ entity Alumnos : cuid, managed {
     status: String(1) @assert.range enum {A;I;P;};
     curso: Association to Cursos;
     critico: Integer;
-    attachments: Composition of many Attachments;
+ //   attachments: Composition of many Attachments;
     comentario: String;
 }
 entity Cursos : managed {
